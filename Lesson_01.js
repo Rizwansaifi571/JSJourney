@@ -19,9 +19,38 @@ console.log(a)
 }
 console.log(a)
 
-let a = "this"
+let b = "this"
 {
 let a =26
 console.log(a)
 }
 console.log(a)
+
+
+
+
+// Var, Let v/s Const :
+
+// point 1 : var -> golbally scoped , let and const -> block scoped.
+// example 1 :
+
+var p = "Rizwan"
+
+{
+    var p = 'Saifi'
+    console.log(p)
+}
+console.log(p)
+
+
+// example 2 :
+
+let q = "Rizwan"
+
+{
+    let q = 'Saifi'
+    console.log(q)
+}
+console.log(q)
+
+
