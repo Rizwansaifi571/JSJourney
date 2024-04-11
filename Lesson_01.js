@@ -54,3 +54,15 @@ let q = "Rizwan"
 console.log(q)
 
 
+// point 2 : var can be updated and re-declared with in its scope.
+// example 1 :
+
+var a = 10
+var a = 5
+console.log(a)
+
+// example 2 :
+var c = 2
+var c = 10
+console.log(c)
+
