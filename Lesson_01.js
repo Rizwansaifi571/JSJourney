@@ -77,3 +77,5 @@ let e = 10
 e = 2
 console.log(e)
 
+// point 4 : const can neither be updated but nor be re-declared.
+
