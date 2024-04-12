@@ -66,3 +66,14 @@ var c = 2
 var c = 10
 console.log(c)
 
+//point 3 : let can be updated but not re-declared.
+//example 1 : 
+let d = 10
+//let d = 6
+console.log(d)  // -> error occur
+
+//example 2 : 
+let e = 10
+e = 2
+console.log(e)
+
