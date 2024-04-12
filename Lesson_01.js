@@ -79,3 +79,16 @@ console.log(e)
 
 // point 4 : const can neither be updated but nor be re-declared.
 
+// point 5 : var variable are initialized with undefined whereas let and const variables are not initialized.
+// example 1 : 
+var f ;
+console.log(f)
+
+// example 2 : 
+let g;
+console.log(g)
+
+// example 3 : 
+// const h;   -> error occur.
+// console.log(h)
+
