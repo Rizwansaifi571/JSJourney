@@ -8,4 +8,7 @@ let b = a + 10
 console.log(a + 10)
 console.log(b)
 
+// Ques 2 : Use typeof operator to find the data type of the string in last question.
+console.log(typeof(b))
+
 
