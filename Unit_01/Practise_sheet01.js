@@ -19,6 +19,7 @@ const market = {
     price2 : 14000
 }
 console.log(market["item2"])
+console.log(market.item1)
 console.log(market["price2"])
 market["item3"] = "chair"
 market["price3"] = 25000
