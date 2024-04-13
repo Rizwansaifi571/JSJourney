@@ -11,3 +11,12 @@ let f = Symbol('Hello') ;
 let g = undefined
 console.log(a, b, c, d , e, f, g)
 console.log(typeof c)
+
+
+// Non Primitive Data type : Object
+
+const item = {
+    name : 'led Bulb', 
+    price : "150" 
+}
+console.log(item)
