@@ -89,6 +89,9 @@ let g;
 console.log(g)
 
 // example 3 : 
-// const h;   -> error occur.
+// const h;   -> syntaxError: missing initializer.
 // console.log(h)
+
+
+
 
