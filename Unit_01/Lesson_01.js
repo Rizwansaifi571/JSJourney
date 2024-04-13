@@ -1,4 +1,4 @@
-// Chapter : Variable And Data.
+// Chapter : Variable.
 // Date : 9, April, 2024.
 
 
