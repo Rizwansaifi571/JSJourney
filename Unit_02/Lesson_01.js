@@ -50,3 +50,10 @@ console.log(d > e)
 console.log(d < e)
 console.log(d >= e)
 console.log(d <= e)
+
+// Logical Operator. 
+let x = 5 ;
+let y = 6 ; 
+console.log(x < y && x==5)
+console.log(x > y || x==5)
+console.log(!false)
