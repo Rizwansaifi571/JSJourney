@@ -39,3 +39,14 @@ c **= 2 ;
 console.log(c)
 
 
+// Comparison Operator.
+let d = 5 ; 
+let e = 4 ; 
+console.log(d == e)
+console.log(d != e)
+console.log(d === e)
+console.log(d !== e)
+console.log(d > e)
+console.log(d < e)
+console.log(d >= e)
+console.log(d <= e)
