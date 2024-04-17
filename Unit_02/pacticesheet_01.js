@@ -17,17 +17,34 @@ const input = require('readline-sync');
 
 // Ques 2 : Demonstrate the use of Switch case Statement in JavaScript.
 
-let age1 = input.question("Enter your age : ")
-switch (age1){
-    case "12" : 
-    console.log("Your age is 12");
-    case "13" : 
-    console.log("Your age is 13");
-    break
-    case "14" : 
-    console.log("Your age is 14");
-    case "15" : 
-    console.log("Your age is 15");
-    default : 
-    console.log("Your age is not special");
+// let age1 = input.question("Enter your age : ")
+// switch (age1){
+//     case "12" : 
+//     console.log("Your age is 12");
+//     case "13" : 
+//     console.log("Your age is 13");
+//     break
+//     case "14" : 
+//     console.log("Your age is 14");
+//     case "15" : 
+//     console.log("Your age is 15");
+//     default : 
+//     console.log("Your age is not special");
+// }
+
+
+// Ques 3 : Write a Java Script program to find whether a number is divisible by 2 or 3 .
+
+num = input.question("Enter the number : ")
+if (num % 2 == 0 && num % 3 == 0){
+    console.log(num, "is divisible by both 2 and 3.")
+}
+else if (num % 2 == 0){
+    console.log(num, "is only divisible by 2.")
+}
+else if (num % 3 == 0){
+    console.log(num, "is only divisible by 3.")
+}
+else{
+    console.log(num, "is not divisible by both 2 and 3.")
 }
