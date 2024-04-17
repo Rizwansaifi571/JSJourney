@@ -24,3 +24,16 @@ do{
     console.log(num1, "*", x, "=", num1*x)
 }
 while(x<10)
+
+
+// Example1 : Code for do-while loop.
+
+num2 =  input.question('Enter number for factorial : ')
+let y = 0;
+let facto = 1
+do{
+    y++
+    facto *= y
+}
+while(y < num2)
+console.log(num2 + "! =", facto)
