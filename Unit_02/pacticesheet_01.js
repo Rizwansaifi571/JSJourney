@@ -35,16 +35,22 @@ const input = require('readline-sync');
 
 // Ques 3 : Write a Java Script program to find whether a number is divisible by 2 or 3 .
 
-num = input.question("Enter the number : ")
-if (num % 2 == 0 && num % 3 == 0){
-    console.log(num, "is divisible by both 2 and 3.")
-}
-else if (num % 2 == 0){
-    console.log(num, "is only divisible by 2.")
-}
-else if (num % 3 == 0){
-    console.log(num, "is only divisible by 3.")
-}
-else{
-    console.log(num, "is not divisible by both 2 and 3.")
-}
+// num = input.question("Enter the number : ")
+// if (num % 2 == 0 && num % 3 == 0){
+//     console.log(num, "is divisible by both 2 and 3.")
+// }
+// else if (num % 2 == 0){
+//     console.log(num, "is only divisible by 2.")
+// }
+// else if (num % 3 == 0){
+//     console.log(num, "is only divisible by 3.")
+// }
+// else{
+//     console.log(num, "is not divisible by both 2 and 3.")
+// }
+
+
+// Ques 4 : Print "you can drive " or "You cannot Drive " base on age being greater than 18 using ternary operator.
+
+age2 = input.question("Enter your age : ")
+console.log("You can ",(age2 >= 18 ? "Drive !!" : "not Drive !!!") )
