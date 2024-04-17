@@ -14,3 +14,14 @@ function Area(length, width) {
 
 let area = Area(length, width);
 console.log("Area of the rectangle:", area);
+
+
+
+// Example : Other method to creat and use the function . 
+
+const product = (num1, num2) => {
+    let pro = num1* num2;
+    console.log("The product is :", pro);
+}
+
+product(25, 625)
