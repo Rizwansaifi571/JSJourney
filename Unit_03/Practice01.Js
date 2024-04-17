@@ -32,3 +32,19 @@ for(x in mark){
     console.log("The marks of", x, "is : ", mark[x])
 }
 
+
+// Ques 3 : Write a program to print "try again" until the user enters the correct number.
+
+input = require("readline-sync")
+corr = 26
+ask = input.question("Enter your number : ")
+if(ask != corr){
+while(corr != ask){
+    console.log("Try Again... ")
+    ask = input.question("Enter your number : ")
+}
+console.log("You have enter the correct number.")
+}
+else{
+    console.log("You have enterd the correct number.")
+}
