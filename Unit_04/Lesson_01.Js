@@ -16,3 +16,11 @@ console.log(name3)
 
 let Sentence = `This "is" Rizwan's Pen.`
 console.log(Sentence)
+
+// Example : Code for Interpolation.
+
+let name = "Rizwan"
+let a = `This is ${name}`
+let a1 = "This is ${name}"
+console.log(a)
+console.log(a1)    // only backtics used in interpolation.
