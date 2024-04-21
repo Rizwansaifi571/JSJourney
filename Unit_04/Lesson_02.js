@@ -35,3 +35,11 @@ console.log(name3)
 name1 = '    Harry    '
 newname = name1.trim()
 console.log(newname)
+
+
+name1 = "Harry"
+console.log(name1[0])
+console.log(name1[1])
+console.log(name1[2])
+console.log(name1[3])
+console.log(name1[4])
