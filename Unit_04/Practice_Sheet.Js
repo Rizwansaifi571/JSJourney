@@ -18,3 +18,9 @@ console.log(sentence.startsWith(word3))
 sentence  = "My name is Rizwan and I am Perfect."
 console.log(sentence.toLowerCase())
 console.log(sentence.toUpperCase())
+
+// Ques 3 : Extract the amount out of this given string.
+//              "Please give Rs 1000"
+
+let str = "Please give Rs 1000"
+console.log(str.slice(15))
