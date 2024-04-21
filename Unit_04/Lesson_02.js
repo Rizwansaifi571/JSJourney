@@ -25,3 +25,8 @@ name1 = "Harry Bhai"
 let newname = name1.replace("Bhai", "Bhau")
 console.log(newname)
 
+
+name1 = 'Harry'
+let name2 = "Naman"
+let name3 = name1.concat(name2, "Yes!")
+console.log(name3)
