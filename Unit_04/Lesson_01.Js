@@ -24,3 +24,13 @@ let a = `This is ${name}`
 let a1 = "This is ${name}"
 console.log(a)
 console.log(a1)    // only backtics used in interpolation.
+
+
+// Example : Code for Escape Sequence Character.
+
+// let name4 = 'Adam D' Agelo'   --> Cause error.
+
+// Now, We can use single quote escape sequence to solve this problem.
+let name4 = 'Adam D\' Angelo'
+console.log(name4)
+
