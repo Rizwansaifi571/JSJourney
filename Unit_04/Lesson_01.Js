@@ -34,3 +34,12 @@ console.log(a1)    // only backtics used in interpolation.
 let name4 = 'Adam D\' Angelo'
 console.log(name4)
 
+
+/*
+Other Escape Sequence are as following.
+\n  --> NewLine 
+\t  --> Tab 
+\r  --> Carriage Return 
+*/
+
+
