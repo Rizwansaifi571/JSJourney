@@ -15,3 +15,9 @@ console.log(numbers[0])
 console.log(numbers[1])
 console.log(numbers[4])
 console.log(numbers.length)
+
+// Example : Changing the values of element from an array.
+
+numbers = [7, 2, 40, 9]
+numbers[2] = 8
+console.log(numbers)
