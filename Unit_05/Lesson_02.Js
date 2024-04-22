@@ -13,3 +13,7 @@ num = [7, 9, 13]
 a = num.join("-")
 console.log(a, typeof a)
 
+num = [1, 2, 7]
+a = num.pop()
+console.log(a)
+console.log(num)
