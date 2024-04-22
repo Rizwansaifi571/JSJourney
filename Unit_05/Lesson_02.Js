@@ -22,3 +22,9 @@ num = [1, 2, 7]
 a = num.push(58)
 console.log(a)
 console.log(num)
+
+
+num = [1, 2, 7]
+a = num.unshift(58)
+console.log(a)
+console.log(num)
