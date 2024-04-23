@@ -39,3 +39,8 @@ num = [7, 8, 9, 10]
 delete num[1]
 console.log(num)
 console.log(num.length)
+
+let a1 = [1, 2, 3]
+let a2 = [4, 5, 6]
+let a3 = [9, 8, 7]
+console.log(a1.concat(a2, a3))
