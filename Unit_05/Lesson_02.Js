@@ -44,3 +44,8 @@ let a1 = [1, 2, 3]
 let a2 = [4, 5, 6]
 let a3 = [9, 8, 7]
 console.log(a1.concat(a2, a3))
+
+
+num = [551, 22, 3, 14, 5, 6, 7, 8, 229]
+num.sort()      // sort as alphabetically.
+console.log(num)    
