@@ -48,4 +48,13 @@ console.log(a1.concat(a2, a3))
 
 num = [551, 22, 3, 14, 5, 6, 7, 8, 229]
 num.sort()      // sort as alphabetically.
-console.log(num)    
+console.log(num)   
+
+
+// Sorting using compare function.
+let compare = (a, b) => {
+    return a - b
+}
+num = [551, 22, 3, 14, 5, 6, 7, 8, 229]
+num.sort(compare)      // sort as numerically.
+console.log(num)   
