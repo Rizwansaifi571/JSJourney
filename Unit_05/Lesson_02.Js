@@ -58,3 +58,8 @@ let compare = (a, b) => {
 num = [551, 22, 3, 14, 5, 6, 7, 8, 229]
 num.sort(compare)      // sort as numerically.
 console.log(num)   
+
+
+// reverse function.
+num.reverse()
+console.log(num)
