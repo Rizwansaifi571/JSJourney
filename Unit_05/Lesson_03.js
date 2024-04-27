@@ -21,3 +21,10 @@ num.forEach((element) => {
 let name1 = 'Harry'
 let arr = Array.from(name1)
 console.log(arr)
+
+
+// For...of loop.
+num = [3, 5, 1, 2, 4] 
+for(let item of num){
+    console.log(item)
+}
