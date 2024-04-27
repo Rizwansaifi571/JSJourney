@@ -15,3 +15,9 @@ num = [3, 5, 1, 2, 4]
 num.forEach((element) => {
     console.log(element)
 })
+
+
+// Array from.
+let name1 = 'Harry'
+let arr = Array.from(name1)
+console.log(arr)
