@@ -34,3 +34,8 @@ num = [1, 2, 7]
 a = num.shift(58)
 console.log(a)
 console.log(num)
+
+num = [7, 8, 9, 10]
+delete num[1]
+console.log(num)
+console.log(num.length)
