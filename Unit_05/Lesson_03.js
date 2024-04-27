@@ -28,3 +28,10 @@ num = [3, 5, 1, 2, 4]
 for(let item of num){
     console.log(item)
 }
+
+
+// For...in loop.
+num = [3, 5, 1, 2, 4] 
+for(let item1 in num){
+    console.log(num[item1])
+}
