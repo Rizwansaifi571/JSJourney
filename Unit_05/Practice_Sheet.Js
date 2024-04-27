@@ -15,3 +15,16 @@ for(let i = 0 ; i < num ; i++){
     arr.push(num2)
 }
 console.log(arr)
+
+
+// Ques 2 : Keep adding numbers to the array in ques1 until o is added to the array.
+
+arr = []
+let num1 ;
+do{
+    num1 = input.question("Enter The Number : ")
+    num2 = Number.parseInt(num1)
+    arr.push(num2)
+}
+while(num1 != 0)
+console.log(arr)
