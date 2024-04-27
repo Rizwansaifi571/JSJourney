@@ -63,3 +63,9 @@ console.log(num)
 // reverse function.
 num.reverse()
 console.log(num)
+
+
+// splice function. 
+num = [1, 2, 3, 4, 5]
+num.splice(2, 1, 23, 24)
+console.log(num)
